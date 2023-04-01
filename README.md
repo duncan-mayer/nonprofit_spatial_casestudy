@@ -5,6 +5,7 @@ The data used in the case study are contained in nonprofit_spatial_casestudy/tea
 
 The code used in the case study are contained in nonprofit_spatial_casestudy/teaching_spatial_code including *ndi_pca* which contains the code to construct the neighborhood deprivation index. The file *spatial_eda_r* contains the code to load the data, and replicate the analysis and figures found in the paper.
 
+The figures are contained in nonprofit_spatial_casestudy/teaching_spatial_results.
 
 
 
