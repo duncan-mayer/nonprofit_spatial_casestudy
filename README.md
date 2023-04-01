@@ -1,4 +1,4 @@
-# Nonprofit_SpatialCaseStudy
+# Nonprofit Spatial Case Study
 This repo contains data and dode for the spatial case study
 
 The data used in the case study are contained in nonprofit_spatial_casestudy/teaching_spatial_data/ including *spatial_case_study_data_dictionary.xlsx* which contains a data dictionary, including a description of the variables found in the data. The file *spatial_example_df.csv* contains the main data used in the case study. Finally, *nonprofit_spatial_casestudy/teaching_spatial_data/cuyahoga_shape_2016* contains the shape files used in the case study.
