@@ -11,7 +11,7 @@ library('spdep')
 cuy_shp <- sf::st_read("teaching_spatial_data/cuyahoga_shape_2016/cuyahoga_example.shp")
 
 # read csv of data, note that csv's do not retain the structure of the data, so we must coerce tracts to character
-df <- read.csv("teaching_spatial_data/spatial_example_df.csv")
+df <- read.csv("teaching_spatial_data/spatial_example_dat.csv")[-1]
 df$tract <- as.character(df$tract)
 
 df <- tigris::geo_join(cuy_shp, df, by = "tract")
@@ -28,7 +28,10 @@ df$local_moran_rev  <- spdep::localmoran(df$rev, adj_list)[,1]
 spdep::moran.test(df$total, adj_list)
 spdep::moran.test(df$rev, adj_list)
 
+# for some disucssion of morans I see ?spdep::moran
+
 # maps for revenue and density with local moran's 
+# see ?spdep::localmoran
 # discretize density 
 df <- df %>% mutate(total_discrete =
                       case_when(
