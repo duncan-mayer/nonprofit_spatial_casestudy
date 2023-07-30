@@ -1,5 +1,5 @@
 # Nonprofit Spatial Case Study
-This repo contains data and code for the spatial case study
+This repo contains data and code for the spatial case study which is now published an open access in Nonprofit Policy Forum: https://www.degruyter.com/document/doi/10.1515/npf-2022-0044/html
 
 The data used in the case study are contained in nonprofit_spatial_casestudy/teaching_spatial_data/ including *spatial_case_study_data_dictionary.xlsx* which contains a data dictionary, including a description of the variables found in the data. The file *spatial_example_dat.csv* contains the main data used in the case study. Finally, *nonprofit_spatial_casestudy/teaching_spatial_data/cuyahoga_shape_2016* contains the shape files used in the case study.
 
